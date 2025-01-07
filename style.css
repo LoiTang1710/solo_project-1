@@ -60,3 +60,45 @@ body{
     height: auto;
  
 }
+.container_pic{
+    margin-top: 100px;
+    margin-left: 218px;
+    transform: scale(0.8);
+    padding-top: 20px;
+    padding-bottom: 253px;
+    padding-right: 26.46px;
+    padding-left: 26.46px;
+    width: 290px;
+    height: 160px;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+.pic1{
+    display: block;
+    width: 290px; /* Đặt kích thước ảnh để vừa khung */
+    height: 160px; /* Giữ tỷ lệ ảnh */
+    border-radius: 20px; /* Bo góc riêng cho ảnh */
+    object-fit: cover; /* Đảm bảo ảnh không bị méo */   
+}
+.container_text {
+    font-family: 'Poppins', sans-serif; /* Toàn bộ text trong container_text dùng font này */
+}
+
+.text1 {
+    font-size: 18px; /* Kích thước chữ cho tiêu đề */
+    font-weight: bold; /* Hoặc dùng "normal", tùy ý */
+    color: #333; /* Màu sắc cho tiêu đề */
+}
+
+.p1 {
+    font-size: 14px; /* Kích thước chữ nhỏ hơn cho đoạn văn */
+    font-weight: 350; /* Kiểu chữ nhẹ */
+    color: #000000; /* Màu sắc nhẹ hơn */
+    padding-right: 20px;
+}
+.p2{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 70px;
+}
